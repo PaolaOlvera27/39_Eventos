@@ -1,0 +1,30 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+header, .list {
+  background-color: lightgray;
+}
+h1 {
+  font-size: 20px;
+}
+form {
+  padding: 5% 3%;
+  border-bottom: solid 1px lightgray;
+}
+textarea {
+    width: 100%;
+    min-height: 90px;
+  	max-height: 150px;
+    max-width: 100%;
+}
+button {
+  margin-top: 20px;
+}
+li {
+  text-decoration:none;
+  padding: 2%;ñ
+}
+label {
+  text-align: center;
+}

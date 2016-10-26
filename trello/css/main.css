@@ -1,0 +1,9 @@
+div {
+  background-color: blue;
+  height: 500px;
+}
+label {
+  background-color: lightblue;
+  padding: 1% 5% 1% 2%;
+  margin: 3%;
+}

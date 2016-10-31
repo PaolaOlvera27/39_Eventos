@@ -4,7 +4,7 @@ labelJs.addEventListener("click", anadirLista);
 //Funcion añadir lista
 function anadirLista () {
   var divJs = document.getElementsByTagName("div")[0];
-  var formJs = document.createElement ("form");
+  var formJs = document.createElement ("div");
   var inputJs = document.createElement("input");
   inputJs.setAttribute("placeholder", "Agregue Lista");
   var buttonJs = document.createElement("button");
@@ -40,10 +40,10 @@ function anadirLista () {
           }
           //Funcion para crear tarjeta
           btnJs.addEventListener("click", crearTarjeta);
-            function crearTarjeta () {
+          function crearTarjeta () {
               var textareaJs = document.createElement("textarea");
               formJs.appendChild(textareaJs);
               //var tarjeta = document.getElementsByTagName("textarea")[0].value
-           }
+          }
     }
 }

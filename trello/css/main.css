@@ -1,9 +1,29 @@
+header {
+  background-color: #276787;
+}
 div {
-  background-color: blue;
-  height: 500px;
+  background-color: #0079BF;
+  height: 582px;
 }
 label {
-  background-color: lightblue;
+  color: white;
+  background-color: #006BA9;
   padding: 1% 5% 1% 2%;
   margin: 3%;
+  border-radius: 10px;
+}
+form {
+	width: 230px;
+	background-color: #BDBDBD;
+	padding: 20px 30px;
+	margin: 20px 30px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+img {
+  height: 80px;
+}
+.btn {
+  margin: 1%;
 }
